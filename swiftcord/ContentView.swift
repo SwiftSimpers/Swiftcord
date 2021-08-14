@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("yunho gay")
+            .padding() // um so should we start
     }
 }
 
@@ -19,3 +19,24 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+// Hi
+// So I think we can divide Discord UI into a top level VStack
+/**
+ HStack { Z? H is horizontal don't we need vertical hmm
+     ServerListView,
+     ChannelOrDMorGDMList,
+     MainView {
+         one of these:
+         ChannelView: HStack {
+             MessagesView,
+             MemberListView
+         }
+         HomeView
+     }
+ }
+ */
+// what is z stack
+// oh so css z-index
+// but wait why zstack
+// got it

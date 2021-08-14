@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		556526B726C7DEBC0007E27E /* swiftcordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556526B626C7DEBC0007E27E /* swiftcordApp.swift */; };
+		556526B726C7DEBC0007E27E /* SwiftcordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556526B626C7DEBC0007E27E /* SwiftcordApp.swift */; };
 		556526B926C7DEBC0007E27E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556526B826C7DEBC0007E27E /* ContentView.swift */; };
 		556526BB26C7DEBF0007E27E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556526BA26C7DEBF0007E27E /* Assets.xcassets */; };
 		556526BE26C7DEBF0007E27E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556526BD26C7DEBF0007E27E /* Preview Assets.xcassets */; };
+		556526C726C7F92B0007E27E /* ServerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556526C626C7F92B0007E27E /* ServerListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		556526B326C7DEBC0007E27E /* swiftcord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftcord.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		556526B626C7DEBC0007E27E /* swiftcordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftcordApp.swift; sourceTree = "<group>"; };
+		556526B626C7DEBC0007E27E /* SwiftcordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftcordApp.swift; sourceTree = "<group>"; };
 		556526B826C7DEBC0007E27E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		556526BA26C7DEBF0007E27E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		556526BD26C7DEBF0007E27E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		556526C626C7F92B0007E27E /* ServerListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +53,11 @@
 		556526B526C7DEBC0007E27E /* swiftcord */ = {
 			isa = PBXGroup;
 			children = (
-				556526B626C7DEBC0007E27E /* swiftcordApp.swift */,
+				556526B626C7DEBC0007E27E /* SwiftcordApp.swift */,
 				556526B826C7DEBC0007E27E /* ContentView.swift */,
 				556526BA26C7DEBF0007E27E /* Assets.xcassets */,
+				556526C526C7F92B0007E27E /* Views */,
+				556526C426C7F91F0007E27E /* Components */,
 				556526BC26C7DEBF0007E27E /* Preview Content */,
 			);
 			path = swiftcord;
@@ -66,6 +70,23 @@
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
+		};
+		556526C426C7F91F0007E27E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Components;
+			path = swiftcord/Components;
+			sourceTree = SOURCE_ROOT;
+		};
+		556526C526C7F92B0007E27E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				556526C626C7F92B0007E27E /* ServerListView.swift */,
+			);
+			name = Views;
+			path = swiftcord/Views;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -138,7 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				556526B926C7DEBC0007E27E /* ContentView.swift in Sources */,
-				556526B726C7DEBC0007E27E /* swiftcordApp.swift in Sources */,
+				556526B726C7DEBC0007E27E /* SwiftcordApp.swift in Sources */,
+				556526C726C7F92B0007E27E /* ServerListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,12 +297,13 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.swiftcord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,12 +327,13 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.helloyunho.swiftcord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
