@@ -7,45 +7,6 @@
 
 import SwiftUI
 
-struct Server: Identifiable {
-    let id: UInt64
-    let name: String
-    let icon: String?
-}
-
-struct ServerListItem: View {
-    let server: Server
-
-    var body: some View {
-        Button(action: {
-            print("server click")
-        }) {
-            Group {
-                if let icon = server.icon {
-                    AsyncImage(
-                        url: URL(
-                            string: "https://cdn.discordapp.com/icons/\(server.id)/\(icon).png"
-                        )!
-                    ) { image in
-                        image.resizable()
-                    } placeholder: {
-                        Color.clear
-                    }
-                } else {
-                    ZStack {
-                        Color("server-list-background")
-                        Text(server.name)
-                            .multilineTextAlignment(.center)
-                    }
-                }
-            }
-            .clipShape(Circle())
-            .aspectRatio(1, contentMode: .fit)
-        }
-        .buttonStyle(PlainButtonStyle())
-    }
-}
-
 struct ServerListView: View {
     var serverList: [Server]
 

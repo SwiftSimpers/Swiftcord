@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		550D846626C8EA28007DF5EC /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D846526C8EA28007DF5EC /* Server.swift */; };
+		550D846826C8EA51007DF5EC /* ServerListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D846726C8EA51007DF5EC /* ServerListItem.swift */; };
 		556526B726C7DEBC0007E27E /* SwiftcordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556526B626C7DEBC0007E27E /* SwiftcordApp.swift */; };
 		556526B926C7DEBC0007E27E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556526B826C7DEBC0007E27E /* ContentView.swift */; };
 		556526BB26C7DEBF0007E27E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556526BA26C7DEBF0007E27E /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		550D846526C8EA28007DF5EC /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		550D846726C8EA51007DF5EC /* ServerListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerListItem.swift; sourceTree = "<group>"; };
 		556526B326C7DEBC0007E27E /* swiftcord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftcord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		556526B626C7DEBC0007E27E /* SwiftcordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftcordApp.swift; sourceTree = "<group>"; };
 		556526B826C7DEBC0007E27E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		550D846426C8EA0F007DF5EC /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				550D846526C8EA28007DF5EC /* Server.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
 		556526AA26C7DEBC0007E27E = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +65,7 @@
 		556526B526C7DEBC0007E27E /* swiftcord */ = {
 			isa = PBXGroup;
 			children = (
+				550D846426C8EA0F007DF5EC /* Structs */,
 				556526B626C7DEBC0007E27E /* SwiftcordApp.swift */,
 				556526B826C7DEBC0007E27E /* ContentView.swift */,
 				556526BA26C7DEBF0007E27E /* Assets.xcassets */,
@@ -74,6 +87,7 @@
 		556526C426C7F91F0007E27E /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				550D846726C8EA51007DF5EC /* ServerListItem.swift */,
 			);
 			name = Components;
 			path = swiftcord/Components;
@@ -159,7 +173,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				556526B926C7DEBC0007E27E /* ContentView.swift in Sources */,
+				550D846826C8EA51007DF5EC /* ServerListItem.swift in Sources */,
 				556526B726C7DEBC0007E27E /* SwiftcordApp.swift in Sources */,
+				550D846626C8EA28007DF5EC /* Server.swift in Sources */,
 				556526C726C7F92B0007E27E /* ServerListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
