@@ -8,58 +8,80 @@
 import SwiftUI
 
 struct Server: Identifiable {
-  let id: UInt64
-  let name: String
-  let icon: String?
+    let id: UInt64
+    let name: String
+    let icon: String?
 }
 
 struct ServerListItem: View {
-  let server: Server
+    let server: Server
 
-  var body: some View {
-    Button(action: {
-      print("server click")
-    }) {
-      AsyncImage(
-        url: URL(
-          string:
-          server.icon != nil ?
-            "https://cdn.discordapp.com/icons/\(server.id)/\(server.icon).png"
-            : "https://discord.com/assets/9f6f9cd156ce35e2d94c0e62e3eff462.png"
-        )
-      )
-      .clipShape(Circle())
-      .frame(width: 60, height: 60)
+    var body: some View {
+        Button(action: {
+            print("server click")
+        }) {
+            Group {
+                if let icon = server.icon {
+                    AsyncImage(
+                        url: URL(
+                            string: "https://cdn.discordapp.com/icons/\(server.id)/\(icon).png"
+                        )!
+                    ) { image in
+                        image.resizable()
+                    } placeholder: {
+                        Color.clear
+                    }
+                } else {
+                    ZStack {
+                        Color("server-list-background")
+                        Text(server.name)
+                            .multilineTextAlignment(.center)
+                    }
+                }
+            }
+            .clipShape(Circle())
+            .aspectRatio(1, contentMode: .fit)
+        }
+        .buttonStyle(PlainButtonStyle())
     }
-  }
 }
 
 struct ServerListView: View {
-  var serverList: [Server]
+    var serverList: [Server]
 
-  var body: some View {
-    VStack {
-      Button(action: {
-        print("home icon click")
-      }) {
-        Image("discord-white-icon")
-          .resizable()
-          .frame(width: 60, height: 60)
-      }
-      Divider()
-      ForEach(serverList) { server in
-        ServerListItem(server: server)
-      }
+    var body: some View {
+        VStack {
+            Button(action: {
+                print("home icon click")
+            }) {
+                ZStack {
+                    Circle()
+                        .foregroundColor(Color("server-list-background"))
+                    Image("discord-white-icon")
+                        .resizable()
+                        .scaledToFit()
+                        .padding(8)
+                }
+                .aspectRatio(1, contentMode: .fit)
+            }
+            .buttonStyle(PlainButtonStyle())
+            .contentShape(Circle())
+            Divider()
+            ForEach(serverList) { server in
+                ServerListItem(server: server)
+            }
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+        .padding(8)
     }
-    .frame(width: 70)
-  }
 }
 
 struct ServerListView_Previews: PreviewProvider {
-  static var previews: some View {
-    ServerListView(serverList: [
-      Server(id: 783_319_033_205_751_809, name: "Harmony", icon: "40b7f82ea507e214a67f605eef963eb8"),
-    ])
-      .frame(width: 70, height: 600)
-  }
+    static var previews: some View {
+        ServerListView(serverList: [
+            // icon: "40b7f82ea507e214a67f605eef963eb8"
+            Server(id: 783_319_033_205_751_809, name: "Harmony", icon: nil),
+        ])
+            .frame(width: 70, height: 600)
+    }
 }
