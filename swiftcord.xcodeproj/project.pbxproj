@@ -9,22 +9,52 @@
 /* Begin PBXBuildFile section */
 		550D846626C8EA28007DF5EC /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D846526C8EA28007DF5EC /* Server.swift */; };
 		550D846826C8EA51007DF5EC /* ServerListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D846726C8EA51007DF5EC /* ServerListItem.swift */; };
-		556526B726C7DEBC0007E27E /* SwiftcordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556526B626C7DEBC0007E27E /* SwiftcordApp.swift */; };
+		550D846B26C8F368007DF5EC /* ServerNameIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D846A26C8F368007DF5EC /* ServerNameIcon.swift */; };
+		550D846E26C8F468007DF5EC /* StringProtocol+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D846D26C8F468007DF5EC /* StringProtocol+Extensions.swift */; };
+		550D848D26C908BA007DF5EC /* HomeActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D848426C908B9007DF5EC /* HomeActivityView.swift */; };
+		550D848E26C908BA007DF5EC /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D848526C908B9007DF5EC /* MessageListView.swift */; };
+		550D848F26C908BA007DF5EC /* MemberListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D848626C908B9007DF5EC /* MemberListView.swift */; };
+		550D849026C908BA007DF5EC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D848726C908B9007DF5EC /* HomeView.swift */; };
+		550D849126C908BA007DF5EC /* ChannelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D848826C908B9007DF5EC /* ChannelListView.swift */; };
+		550D849226C908BA007DF5EC /* ServerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D848926C908B9007DF5EC /* ServerView.swift */; };
+		550D849326C908BA007DF5EC /* DMListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D848A26C908B9007DF5EC /* DMListView.swift */; };
+		550D849426C908BA007DF5EC /* HomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D848B26C908BA007DF5EC /* HomeContentView.swift */; };
+		550D849526C908BA007DF5EC /* FriendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D848C26C908BA007DF5EC /* FriendListView.swift */; };
+		550D849A26C91013007DF5EC /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D849926C91013007DF5EC /* Collection+Extensions.swift */; };
+		550D849C26C91934007DF5EC /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D849B26C91934007DF5EC /* VisualEffectView.swift */; };
 		556526B926C7DEBC0007E27E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556526B826C7DEBC0007E27E /* ContentView.swift */; };
 		556526BB26C7DEBF0007E27E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556526BA26C7DEBF0007E27E /* Assets.xcassets */; };
 		556526BE26C7DEBF0007E27E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556526BD26C7DEBF0007E27E /* Preview Assets.xcassets */; };
 		556526C726C7F92B0007E27E /* ServerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556526C626C7F92B0007E27E /* ServerListView.swift */; };
+		55C1995A26C94C93004AE059 /* SwiftcordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C1995926C94C93004AE059 /* SwiftcordApp.swift */; };
+		55C1995C26C95FE6004AE059 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C1995B26C95FE6004AE059 /* UserInfoView.swift */; };
+		55C1995F26C97E40004AE059 /* SwiftUITooltip in Frameworks */ = {isa = PBXBuildFile; productRef = 55C1995E26C97E40004AE059 /* SwiftUITooltip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		550D846526C8EA28007DF5EC /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
 		550D846726C8EA51007DF5EC /* ServerListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerListItem.swift; sourceTree = "<group>"; };
+		550D846A26C8F368007DF5EC /* ServerNameIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerNameIcon.swift; sourceTree = "<group>"; };
+		550D846D26C8F468007DF5EC /* StringProtocol+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringProtocol+Extensions.swift"; sourceTree = "<group>"; };
+		550D848426C908B9007DF5EC /* HomeActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeActivityView.swift; sourceTree = "<group>"; };
+		550D848526C908B9007DF5EC /* MessageListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
+		550D848626C908B9007DF5EC /* MemberListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberListView.swift; sourceTree = "<group>"; };
+		550D848726C908B9007DF5EC /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		550D848826C908B9007DF5EC /* ChannelListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelListView.swift; sourceTree = "<group>"; };
+		550D848926C908B9007DF5EC /* ServerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerView.swift; sourceTree = "<group>"; };
+		550D848A26C908B9007DF5EC /* DMListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMListView.swift; sourceTree = "<group>"; };
+		550D848B26C908BA007DF5EC /* HomeContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeContentView.swift; sourceTree = "<group>"; };
+		550D848C26C908BA007DF5EC /* FriendListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListView.swift; sourceTree = "<group>"; };
+		550D849926C91013007DF5EC /* Collection+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
+		550D849B26C91934007DF5EC /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
 		556526B326C7DEBC0007E27E /* swiftcord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftcord.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		556526B626C7DEBC0007E27E /* SwiftcordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftcordApp.swift; sourceTree = "<group>"; };
 		556526B826C7DEBC0007E27E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		556526BA26C7DEBF0007E27E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		556526BD26C7DEBF0007E27E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		556526C626C7F92B0007E27E /* ServerListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerListView.swift; sourceTree = "<group>"; };
+		55C1995926C94C93004AE059 /* SwiftcordApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftcordApp.swift; sourceTree = "<group>"; };
+		55C1995B26C95FE6004AE059 /* UserInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		55F3169626C938EE0041746D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C1995F26C97E40004AE059 /* SwiftUITooltip in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +75,23 @@
 				550D846526C8EA28007DF5EC /* Server.swift */,
 			);
 			path = Structs;
+			sourceTree = "<group>";
+		};
+		550D846926C8F368007DF5EC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				550D846A26C8F368007DF5EC /* ServerNameIcon.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		550D846C26C8F433007DF5EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				550D846D26C8F468007DF5EC /* StringProtocol+Extensions.swift */,
+				550D849926C91013007DF5EC /* Collection+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		556526AA26C7DEBC0007E27E = {
@@ -65,12 +113,15 @@
 		556526B526C7DEBC0007E27E /* swiftcord */ = {
 			isa = PBXGroup;
 			children = (
+				55F3169626C938EE0041746D /* Info.plist */,
+				556526C426C7F91F0007E27E /* Components */,
+				550D846C26C8F433007DF5EC /* Extensions */,
+				550D846926C8F368007DF5EC /* Utility */,
 				550D846426C8EA0F007DF5EC /* Structs */,
-				556526B626C7DEBC0007E27E /* SwiftcordApp.swift */,
+				55C1995926C94C93004AE059 /* SwiftcordApp.swift */,
 				556526B826C7DEBC0007E27E /* ContentView.swift */,
 				556526BA26C7DEBF0007E27E /* Assets.xcassets */,
 				556526C526C7F92B0007E27E /* Views */,
-				556526C426C7F91F0007E27E /* Components */,
 				556526BC26C7DEBF0007E27E /* Preview Content */,
 			);
 			path = swiftcord;
@@ -96,6 +147,17 @@
 		556526C526C7F92B0007E27E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				55C1995B26C95FE6004AE059 /* UserInfoView.swift */,
+				550D849B26C91934007DF5EC /* VisualEffectView.swift */,
+				550D848826C908B9007DF5EC /* ChannelListView.swift */,
+				550D848A26C908B9007DF5EC /* DMListView.swift */,
+				550D848C26C908BA007DF5EC /* FriendListView.swift */,
+				550D848426C908B9007DF5EC /* HomeActivityView.swift */,
+				550D848B26C908BA007DF5EC /* HomeContentView.swift */,
+				550D848726C908B9007DF5EC /* HomeView.swift */,
+				550D848626C908B9007DF5EC /* MemberListView.swift */,
+				550D848526C908B9007DF5EC /* MessageListView.swift */,
+				550D848926C908B9007DF5EC /* ServerView.swift */,
 				556526C626C7F92B0007E27E /* ServerListView.swift */,
 			);
 			name = Views;
@@ -118,6 +180,9 @@
 			dependencies = (
 			);
 			name = swiftcord;
+			packageProductDependencies = (
+				55C1995E26C97E40004AE059 /* SwiftUITooltip */,
+			);
 			productName = swiftcord;
 			productReference = 556526B326C7DEBC0007E27E /* swiftcord.app */;
 			productType = "com.apple.product-type.application";
@@ -146,6 +211,9 @@
 				Base,
 			);
 			mainGroup = 556526AA26C7DEBC0007E27E;
+			packageReferences = (
+				55C1995D26C97E40004AE059 /* XCRemoteSwiftPackageReference "SwiftUI-Tooltip" */,
+			);
 			productRefGroup = 556526B426C7DEBC0007E27E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -172,10 +240,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				550D846B26C8F368007DF5EC /* ServerNameIcon.swift in Sources */,
+				550D846E26C8F468007DF5EC /* StringProtocol+Extensions.swift in Sources */,
+				550D848D26C908BA007DF5EC /* HomeActivityView.swift in Sources */,
+				550D849426C908BA007DF5EC /* HomeContentView.swift in Sources */,
 				556526B926C7DEBC0007E27E /* ContentView.swift in Sources */,
+				550D848E26C908BA007DF5EC /* MessageListView.swift in Sources */,
+				550D849026C908BA007DF5EC /* HomeView.swift in Sources */,
+				550D849A26C91013007DF5EC /* Collection+Extensions.swift in Sources */,
+				550D849226C908BA007DF5EC /* ServerView.swift in Sources */,
+				55C1995A26C94C93004AE059 /* SwiftcordApp.swift in Sources */,
+				550D849326C908BA007DF5EC /* DMListView.swift in Sources */,
 				550D846826C8EA51007DF5EC /* ServerListItem.swift in Sources */,
-				556526B726C7DEBC0007E27E /* SwiftcordApp.swift in Sources */,
+				550D849C26C91934007DF5EC /* VisualEffectView.swift in Sources */,
+				550D848F26C908BA007DF5EC /* MemberListView.swift in Sources */,
+				550D849126C908BA007DF5EC /* ChannelListView.swift in Sources */,
 				550D846626C8EA28007DF5EC /* Server.swift in Sources */,
+				550D849526C908BA007DF5EC /* FriendListView.swift in Sources */,
+				55C1995C26C95FE6004AE059 /* UserInfoView.swift in Sources */,
 				556526C726C7F92B0007E27E /* ServerListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +395,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = swiftcord/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -343,6 +426,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = swiftcord/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -380,6 +464,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		55C1995D26C97E40004AE059 /* XCRemoteSwiftPackageReference "SwiftUI-Tooltip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/quassummanus/SwiftUI-Tooltip";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		55C1995E26C97E40004AE059 /* SwiftUITooltip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55C1995D26C97E40004AE059 /* XCRemoteSwiftPackageReference "SwiftUI-Tooltip" */;
+			productName = SwiftUITooltip;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 556526AB26C7DEBC0007E27E /* Project object */;
 }
